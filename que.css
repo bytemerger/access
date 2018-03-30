@@ -1,0 +1,246 @@
+body{
+    width: 100%;
+}
+@font-face {
+    font-family: "designText";
+    src: url("./textFont/MASQUE__.ttf");
+}
+@font-face {
+    font-family: midesign;
+    src: url("./textFont/Sugar&Vinegar.ttf")
+}
+.name{font-family: designText;
+        text-decoration: none;
+        color: midnightblue;
+        font-size: 29px;
+        margin-left: 15px;}
+.dropdown{display: inline-block;
+    position: relative;
+}
+.mdesign{font-family: midesign;}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 230px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: gray;
+}
+.dropdown-content a{
+    color: navajowhite;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: white;
+}
+.dropdown:hover .dropdown-content{display: block;}
+
+.left{background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: midnightblue;
+    font-size: 18px;
+    font-weight:bold;
+    text-decoration: none;}
+.left:hover{text-decoration: underline;}
+
+.leftm{word-spacing: 30px;
+    float: right;
+    margin-right: 15px;}
+
+.sell{background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: midnightblue;
+    font-size: 18px;
+    font-weight:bold;
+    word-spacing: 0px;
+
+    }
+.expand{background-color: red;
+    border-radius: 1px;
+    padding: 10px;
+    color: ghostwhite;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 35px 15px 35px;
+    font-weight: bold;
+    opacity: 0.7;}
+.expand:hover{
+    opacity: 1;
+}
+#design{font-family: midesign;
+        font-size: 60px;
+        color: ghostwhite;}
+#red{color: red;}
+.mid{padding-top: 270px;
+    height: 500px;
+    border: solid;
+    border-color: black;
+    background-image: url("images/header-background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    }
+.edge{float: right;
+        margin-right: 10px;
+        font-family: midesign;
+        font-size: 35px;
+        color: wheat;}
+#why{
+    padding-top: 20px;
+    color:cadetblue;
+    clear: both;
+}
+.row div{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.row{margin-left:30px;
+    }
+.column{color: cadetblue;}
+.footer{position: relative;
+        margin-top: 400px;
+        text-align: center;
+        font-family: midesign;
+        font-size: 15px;
+        margin-left: 60px;
+        clear: both;}
+.tem{
+    font-family: midesign;
+    font-size: 35px;
+    }
+.footerla{position: relative;
+    margin-top: 40px;
+    text-align: center;
+    font-family: midesign;
+    font-size: 15px;
+    margin-left: 60px;
+    clear: left;}
+.footerMain{background-color: gray;
+            color:navajowhite;}
+.tem2{
+    font-family: midesign;
+    font-size: 35px;
+    color: navajowhite;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.roun{border-radius: 14px;
+    border: none;
+    background-color: lightgray;
+    height: 3em;
+
+}
+#subdes{height: 3em;
+        width: 25em;
+        color: red;
+        border-radius: 15px;
+        background-color: white;
+        border-color: red;}
+#sign{color: red;
+    }
+#int{font-style: italic;}
+.bold{font-weight: bold;}
+.middle{
+        background-color: white;
+        padding:3em 7em 2em 6em;
+        }
+#whole{
+        background-image: url("images/dds.png");
+        padding-bottom: 5em;}
+.roun1{background-color: transparent;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid lightblue 3px;
+    padding: 3px 10px;
+    color: white;}
+
+.row1 div{
+    float: left;
+}
+.lefts{position: relative;
+        margin-left: 15em;}
+.whole1{padding: 10em 0em 10em 0em;
+    background-image: url("images/dds.png");
+      /*background-color: #253E5A;*/
+        }
+.logwhit{font-weight: bold;
+        color: wheat;}
+#subdes1{height: 3em;
+    width: 8em;
+    color: midnightblue;
+    border-radius: 15px;
+    background-color: lightblue;
+    border: none;}
+#tem3{
+    font-family: midesign;
+    font-size: 80px;
+    color: navajowhite;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.move{padding-top: 5em;
+        margin-left: 10em}
+#baba{
+        margin-left: 7em;
+        color: white;}
+#subdes2{
+    color: midnightblue;
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+    padding: 1em 2em;
+    text-decoration: none;}
+/*for the success and error
+ */
+.suu{padding-top: 1em;
+    font-weight: bold;
+    font-family: midesign;
+    font-size: 3em;
+    color: whitesmoke;
+    text-shadow: 3px 3px 4px lightskyblue;
+
+}
+.sucHome{
+    font-family: midesign;
+    font-size: 3em;
+    text-decoration: none;
+    padding: 0.1em 4em;
+    background-color:lightskyblue;
+    color: white;
+
+
+}
+.head3{
+    text-align: center;
+    margin-top: 6em;
+    background-color: #2D2E34;
+    height: 25em;
+    width: 35em;
+    margin-left: 23em;
+    border-radius: 1em;
+    box-shadow: 13px 13px 7px grey;
+}
+.mes{
+    font-weight: bold;
+    font-family: midesign;
+    font-size: 1em;
+    color: navajowhite;
+}
